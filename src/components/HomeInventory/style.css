@@ -1,0 +1,67 @@
+.app-home__inventory-header img {
+    width: 24px;
+    height: 24px;
+    margin-right: 9px;
+}
+.app-home__inventory-header span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.app-home_inventory {
+    margin: 33px 31px;
+    width: 40%;
+}
+.app-home__inventory-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+.app-home__inventory-stat {
+    background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(20, 43, 82, 0.1) 0%, rgba(183, 198, 225, 0) 100%) , rgba(138, 135, 167, 0.12);
+    border-radius: 16px;
+    padding: 16px 29px;
+    border-radius: 16px;
+}
+.app-home__inventory-stat-value {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.app-home__inventory-stat-label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color: #7590C0;
+}
+.app-home__inventory-stat-total .app-home__inventory-stat-value span {
+    color: #55ECD3;
+    margin-right: 4px;
+}
+.app-home__inventory-stat-total .app-home__inventory-stat-value img{
+    width: 7px;
+    height: 13px;
+} 
+.app-home__inventory-stat-numberNFT {
+    margin-right: 20px;
+}
+.app-home__inventory-deposit {
+    background: rgba(16, 17, 40, 0.6);
+    border-radius: 26px;
+    padding: 11px 16px;
+    cursor: pointer;
+}
+.app-home__inventory-deposit img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.app-home__inventory-deposit span {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8A87A7;
+}

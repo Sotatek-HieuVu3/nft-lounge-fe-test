@@ -1,0 +1,72 @@
+.app-header {
+    height: 90px;
+    /* background: #05071C; */
+    /* opacity: 0.2; */
+    /* border-radius: 0px; */
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    padding: 0px 26px;
+}
+.app-header__logo {
+}
+.app-header__logo img{
+    width: 34px;
+    height: 29px;
+    margin-right: 8px;
+}
+.app-header__logo div{
+    margin-right: 39px;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.app-header__active-game, .app-header__game-history {
+    cursor: pointer;
+}
+.app-header__active-game div, .app-header__game-history div {
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 100%; */
+    color: #A8A5C5;
+    margin-right: 34px;
+}
+.app-header__active-game img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.app-header__game-history img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.app-header__avatar img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.app-header__username {
+    font-weight: 600;
+    font-size: 16px;
+    color: #8A87A7;
+    margin-right: 12px;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.app-header__level {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #79C1E0;
+    margin-right: 20px;
+}
+.app-header__setting {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
